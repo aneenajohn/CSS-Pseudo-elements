@@ -21,3 +21,10 @@ p::after {
     width: 10px;
     height: 10px;
 }
+
+img::before {
+    content: '';
+    background-color: palegreen;
+    height: 250px;
+    width: 250px;
+}
