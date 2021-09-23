@@ -5,3 +5,19 @@ body {
     align-items: center;
     font-size: 5rem;
 }
+
+p::before {
+    content: '';
+    background-color: red;
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+
+p::after {
+    content: '';
+    background-color: red;
+    display: block;
+    width: 10px;
+    height: 10px;
+}
